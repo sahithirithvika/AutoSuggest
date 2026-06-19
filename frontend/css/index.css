@@ -1,3 +1,33 @@
-h1{
-    color : red;
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: red;
+}
+#heading {
+    color: blue;
+}
+
+.other {
+    color: green;
+}
+
+.para {
+    color: purple;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px 0
+    text-align: centre;
+}
+
+a {
+    color: orange;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkorange;
+    text-decoration: underline;
 }
