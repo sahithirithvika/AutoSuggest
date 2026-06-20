@@ -1,42 +1,46 @@
-body {
-    font-family: Arial, sans-serif;
+h1{
+    color : red;
 }
-
-nav {
-    background-color: black;
-    border: 2px solid red;
-    padding: 15px;
+#heading-2{
+    color:blue;
 }
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    margin: 0;
-    padding: 0;
+.heading{
+    color:seagreen;
 }
+.para{
+    color: peru;
+    border:2px solid black;
+    padding: 20px;
+}
+.navbar{
+    border-style: solid;
+    border-color:black;
+    padding:25px;
+    background: lavender;
+    text-align: center;
 
-nav a {
-    color: lightcyan;
+}
+.navbar a{
+    color: black;
+    padding:30px;
     text-decoration: none;
-    font-weight: bold;
+
+}
+.navbar a:hover{
+    background-color: blanchedalmond;
 }
 
-h1 {
-    color: red;
+.card{
+    width:300px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    padding:20px;
+    text-align:center;
+    margin:20px auto;
+    
 }
+.card img{
+    width:200px;
+    text-align:left;
 
-#heading {
-    color: blue;
-}
-
-.other {
-    color: green;
-}
-
-a {
-    color: orange;
-    font-weight: bold;
-    text-decoration: none;
 }
